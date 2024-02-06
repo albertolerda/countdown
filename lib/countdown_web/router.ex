@@ -19,6 +19,7 @@ defmodule CountdownWeb.Router do
 
     get "/", PageController, :home
     live "/countdown", CountdownLive
+    live "/countdown-form", CountdownFormLive
   end
 
   # Other scopes may use custom stacks.
